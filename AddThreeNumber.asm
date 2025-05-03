@@ -29,7 +29,7 @@ main proc
     mov dl,13
     int 21h
     
-    mov ah,2
+    mov ah,2             
     mov dl,bl
     int 21h
       
