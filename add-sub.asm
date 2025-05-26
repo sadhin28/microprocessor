@@ -92,6 +92,8 @@ main proc
     lea dx,e
     int 21h
     
+    mov
+    
        
 
    
