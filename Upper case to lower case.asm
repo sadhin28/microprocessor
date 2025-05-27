@@ -35,9 +35,10 @@ not_lower:
  ja end_prog
  or al, 00100000b
  
- print_result:
-    lea dx, changeChar  ;for display msg
+ print_result:  
     mov ah, 9
+    lea dx, changeChar  ;for display msg
+
     int 21h
     mov dl, al
     mov ah, 2h
